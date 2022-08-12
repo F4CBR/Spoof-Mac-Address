@@ -1,4 +1,3 @@
-# This program made by F4CBR
 #!/bin/bash
 airmon-ng stop wlan0mon;
 airmon-ng start wlan0;
@@ -31,5 +30,5 @@ fi
 clear;
 echo "Your Mac Adress was spoofed, This is your mac address now :";
 echo;
-macchanger -p wlan0mon;
 ifconfig wlan0mon up;
+macchanger -p wlan0mon;
