@@ -1,4 +1,4 @@
-# This program made by Fauzan 
+# This program made by F4CBR
 #!/bin/bash
 airmon-ng stop wlan0mon;
 airmon-ng start wlan0;
